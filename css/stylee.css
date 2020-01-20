@@ -749,6 +749,7 @@ main {
 
 .section.teaser {
   display: grid;
+  width: 100%;
   grid-template-columns: repeat(12, 1fr);
 }
 
@@ -1036,12 +1037,12 @@ h4 {
     background: rgba(0, 0, 0, 0.7);
   }
 
-  /* .headerImage {
+  .headerImage {
     grid-column: 1/13;
     grid-row: 1/4;
     z-index: 2;
     box-shadow: none;
-  } */
+  }
 
   .section {
     padding: 2em 0;

@@ -62,15 +62,13 @@ html {
 
 /* End Banner Nav */
 
-
 h1 {
   font-family: var(--fontSans);
-  font-size: 4em;
+  
   line-height: 1.25em;
   color: var(--primaryColorLight);
   font-weight: 300;
   margin: 0;
-  
   z-index: 3;
 }
 
@@ -1007,9 +1005,9 @@ h4 {
 
 @media (max-width: 700px) {
   :root {
-    --sectionPadding: 40px;
+    --sectionPadding: 0px;
   }
-
+  
   p,
   a {
     font-size: 1.3em;
